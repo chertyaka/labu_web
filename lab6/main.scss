@@ -1,0 +1,13 @@
+
+$colore1: green;
+$colore2: red;
+
+body{
+    background-color: $colore1;
+}
+
+div{
+    background-color: $colore2;
+    margin: 150px;
+    padding: 80px;
+}
