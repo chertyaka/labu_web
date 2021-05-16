@@ -1,0 +1,37 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.butt{
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.tabl{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.com{
+    border: 2px solid hsl(150, 100%, 23%);
+    background-color: #00e727;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+div{
+    display:inline;
+}
