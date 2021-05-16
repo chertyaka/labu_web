@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="dialog_s" title="Success" style="display: none; background-color: green;">
+        <p>You are succesfuly registrated.</p>
+      </div>
+    <div id="dialog_f" title="Failure" style="display: none; background-color: red;">
+        <p>Sorry but you have mistakes in registration</p>
+      </div>
+     <form>
+        <div>
+            <div class="cont" >
+                Login: <input type="text" id='log'>
+            </div>
+            <div class="cont" >
+                Email: <input type="email" class='email' id="email">
+            </div>
+            <div class="cont">
+                Password: <input type="text" id='pass'>
+            </div>
+            <div class="cont">
+                Repeat password: <input type="text" id='pass2'>
+            </div>
+            <div>
+                <button id="btn" type="button">Далі</button>
+            </div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    // $( function() {
+    //   $( "#dialog" ).dialog();
+    // } );
+    </script>
+</body>
+</html>
