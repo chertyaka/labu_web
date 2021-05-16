@@ -1,0 +1,27 @@
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    width: 400px;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+    color: cornflowerblue;
+    width: 400px;
+}
+p{
+    font-size: 16px;
+    width: 400px;
+    text-align: justify;
+    line-height: 30px;
+    background-color: #f7efef;
+}
+mark{
+    color: red;
+    background-color: #f7efef;
+    font-weight: bolder;
+}
+i{
+    color:blue;
+    font-style: italic;
+}
